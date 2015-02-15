@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "comic fit",
+  "description": "read the comic",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://comic.sfacg.com/HTML/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
