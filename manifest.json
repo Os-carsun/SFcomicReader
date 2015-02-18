@@ -6,7 +6,7 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["http://comic.sfacg.com/HTML/*"],
+      "matches": ["http://comic.sfacg.com/*"],
       "js": ["main.js"]
     }
   ]
